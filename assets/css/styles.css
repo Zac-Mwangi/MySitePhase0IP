@@ -313,8 +313,8 @@ a:hover {
         flex-direction: column;
     }
 
-    .p1{
-        display: block;
+    .stories{
+        display: none;
     }
     .noo{
         display: none;
