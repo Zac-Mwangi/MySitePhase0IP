@@ -257,7 +257,6 @@ a:hover {
     .aboutUs {
         margin-top: 25px;
         border: 2px solid #EC4067;
-        padding: 0px;
         gap: 0px;
         flex-direction: column;
     }
