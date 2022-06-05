@@ -242,6 +242,7 @@ a:hover {
     .header>.right>img {
         width: 100%;
     }
+
     .navBar ul>.links {
         display: none;
     }
@@ -260,43 +261,44 @@ a:hover {
         gap: 0px;
         flex-direction: column;
     }
-    
+
     .aboutUs>.left,
     .right {
         width: 100%;
     }
-    
+
     .aboutUs>.left>img {
         width: 100%;
     }
-    
+
     .aboutUs>.right {
-        width: 100%;    
+        width: 100%;
     }
 
     /* expertise area */
-    .expertize{
+    .expertize {
         /* border: 2px solid #EC4067; */
 
     }
+
     .expert_items {
         display: flex;
-       flex-direction: column;
+        flex-direction: column;
     }
-    
+
     .expert_items>.tm1 {
         border: 2px solid #d3d3d3;
         padding: 25px;
         margin-bottom: 20px;
     }
-    
+
     .expert_items>.tm1>.up {
         padding: 25px;
         margin-bottom: 20px;
         display: flex;
         justify-content: center;
     }
-    
+
     .expert_items>.tm1>.down {
         padding: 25px;
         margin-bottom: 20px;
@@ -304,7 +306,7 @@ a:hover {
         flex-direction: column;
         align-items: center;
         font-family: "Lucida Console", "Courier New", monospace;
-    
+
     }
 
     /* testimonials */
@@ -313,11 +315,12 @@ a:hover {
         flex-direction: column;
     }
 
-    .stories{
+    .stories {
         display: none;
     }
-    .noo{
+
+    .noo {
         display: none;
     }
-    
+
 }
