@@ -229,7 +229,7 @@ a:hover {
 @media screen and (max-width: 1250px) {
     .header {
         flex-direction: column;
-        border: 2px solid #EC4067;
+        border: 2px solid #d3d3d3;
         gap: 0px;
 
     }
@@ -247,7 +247,7 @@ a:hover {
     }
 
     .btn {
-        background: linear-gradient(45deg, #8b7c7c, #EC4067);
+        background: linear-gradient(45deg, #8b7c7c, #d3d3d3);
         border-radius: 2px;
         text-decoration: none;
         color: #fff;
@@ -256,7 +256,7 @@ a:hover {
     /* f */
     .aboutUs {
         margin-top: 25px;
-        border: 2px solid #EC4067;
+        border: 2px solid #d3d3d3;
         gap: 0px;
         flex-direction: column;
     }
@@ -276,7 +276,7 @@ a:hover {
 
     /* expertise area */
     .expertize{
-        border: 2px solid #EC4067;
+        /* border: 2px solid #EC4067; */
 
     }
     .expert_items {
