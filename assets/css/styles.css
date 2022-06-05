@@ -247,7 +247,7 @@ a:hover {
     }
 
     .btn {
-        background: linear-gradient(45deg, #8b7c7c, #d3d3d3);
+        background: linear-gradient(45deg, #8b7c7c, #EC4067);
         border-radius: 2px;
         text-decoration: none;
         color: #fff;
@@ -311,6 +311,13 @@ a:hover {
 
     .testimonials_items {
         flex-direction: column;
+    }
+
+    .p1{
+        display: block;
+    }
+    .noo{
+        display: none;
     }
     
 }
