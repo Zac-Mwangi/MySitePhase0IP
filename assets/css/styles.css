@@ -306,5 +306,11 @@ a:hover {
         font-family: "Lucida Console", "Courier New", monospace;
     
     }
+
+    /* testimonials */
+
+    .testimonials_items {
+        flex-direction: column;
+    }
     
 }
