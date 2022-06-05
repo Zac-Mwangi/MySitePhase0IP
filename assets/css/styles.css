@@ -162,10 +162,8 @@ body {
 
 .testimonials_items>.ex>.up {
     display: flex;
-    gap: 25px;
     /* border: 2px solid red; */
-    align-items: right;
-    align-content: right
+    justify-content: end;
 }
 
 .testimonials>.titleTestimonial {
