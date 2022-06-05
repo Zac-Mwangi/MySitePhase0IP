@@ -1,26 +1,30 @@
-*{
+* {
     margin: 0px;
     padding: 0;
-    font-family: 'Open Sans';font-size: 22px;
+    font-family: 'Open Sans';
+    font-size: 22px;
     /* background-color: black;
     color: white; */
-    
-}
-body{
-    margin: 20px; 
-}
-.navBar ul{
-    display: flex; 
-    justify-content: space-between; list-style: none;
+
 }
 
-.navBar ul > .links{
-    display: flex; 
-    gap:25px
+body {
+    margin: 20px;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navBar ul>.links {
+    display: flex;
+    gap: 25px
 }
 
 /* header */
-.header{
+.header {
     display: flex;
     margin-top: 25px;
     padding: 25px;
@@ -37,19 +41,24 @@ body{
 
 
 }
-.header >.left,.right{
+
+.header>.left,
+.right {
     width: 50%;
 }
-.header >.right >img{
+
+.header>.right>img {
     width: 70%;
 }
-.header >.left{
+
+.header>.left {
     width: 100%;
     /* border: 2px solid blue; */
-    
+
 }
+
 /* btn for download cv */
-.btn{
+.btn {
     background: linear-gradient(45deg, #424242, #f3dfec);
     border-radius: 6px;
     padding: 10px 20px;
@@ -58,7 +67,7 @@ body{
 }
 
 /*about me */
-.aboutUs{
+.aboutUs {
     display: flex;
     margin-top: 25px;
     padding: 25px;
@@ -68,26 +77,30 @@ body{
 
 
 }
-.aboutUs >.left,.right{
+
+.aboutUs>.left,
+.right {
     width: 50%;
 }
-.aboutUs >.left >img{
+
+.aboutUs>.left>img {
     width: 30vh;
 }
-.aboutUs >.right{
+
+.aboutUs>.right {
     width: 100%;
     /* border: 2px solid blue; */
-    
+
 }
 
 
 /* expertize area */
 
-.expertize{
+.expertize {
     background-color: #F5F5F5;
 }
 
-.expertize >.title{
+.expertize>.title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,6 +111,35 @@ body{
     /* background-color: #F5F5F5; */
 
 }
-.expertize >.title >.p1{
+
+.expertize>.title>.p1 {
     margin-top: 15px;
+}
+
+.expert_items {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.expert_items>.tm1 {
+    border: 2px solid #d3d3d3;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.expert_items>.tm1>.up {
+    padding: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.expert_items>.tm1>.down{
+    padding: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
