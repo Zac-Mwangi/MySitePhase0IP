@@ -19,13 +19,22 @@ body {
 
 .navBar ul>.links {
     display: flex;
-    gap: 25px
+    gap: 25px;
+    padding-right: 15px;
 }
 
 li,
 a {
     text-decoration: none;
     font-size: 30px;
+    color: black;
+
+}
+
+a:hover {
+    background-color: #EC4067;
+    color: #fff;
+    padding: 10px;
 }
 
 /* header */
@@ -49,11 +58,11 @@ a {
 
 .header>.left,
 .right {
-    /* width: 50%; */
+    width: 50%;
 }
 
 .header>.right>img {
-    /* width: 70%; */
+    width: 70%;
 }
 
 .header>.left {
@@ -64,7 +73,7 @@ a {
 
 /* btn for download cv */
 .btn {
-    background: linear-gradient(45deg, #424242, #f3dfec);
+    background: linear-gradient(45deg, #8b7c7c, #EC4067);
     border-radius: 6px;
     padding: 10px 20px;
     text-decoration: none;
@@ -203,4 +212,11 @@ a {
 
 .footer1>.pplast {
     margin-bottom: 20px;
+}
+
+/* others */
+
+.p1 {
+    color: #EC4067;
+
 }
